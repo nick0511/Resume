@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>职业简历</title>
+	<link rel="stylesheet" type="text/css" href="jianli.css">
+	<script type="text/javascript" src="jianli.js"></script>
+    <meta charset="utf-8">
+</head>
+<body>
+	<div id = "zz" >
+		<div id="pp"><b>　基本简历填写</b></div>
+		<p class="oo"><b>☎个人资料</b></p>
+		<div id="top">
+			<div id="ff">
+				<form action="" method="get" name="information">
+				<p>姓名： <input type = "text" id = "name6" style = "background-color:transparent"></p>
+				<p>性别： 
+					  <input type="radio" name="person" id="sex" value="男生">男生
+					  <input type="radio" name="person" id="sex" value="女生">女生
+				          </p>
+				<p>学历： <select id="xueli">
+					  <option value="小学">小学</option>
+					  <option value="初中">初中</option>
+					  <option value="高中">高中</option>
+					  <option value="大学">大学</option>
+				          </select></p>
+				<p>住址： <input type = "text" id = "where" style = "background-color:transparent"></p>
+				</form>
+			</div>
+			<div id="ee">
+				<form name = "form1">
+				<p>电　　话： <input type = "text" id = "email" style = "background-color:transparent"></p>
+				<p>年　　龄： <input type = "text" id = "age" style = "background-color:transparent"></p>
+				<p>毕业院校： <input type = "text" id = "school" style = "background-color:transparent"></p>
+				<p>薪资要求： <input type = "text" id = "salary" style = "background-color:transparent"></p>
+				</form>
+			</div>
+			<div id="dd">
+			</div>
+		</div>
+		<p class="cc"><b>✐教育及喜好</b></p>
+		<div id = "ww">
+			<p>就读时间： <input type = "date" name = "-年-月-日"  id="date1" style = "width:140px;height:15px;background-color:transparent">　到　<input type = "date" name = "-年-月-日"   id="date2" style = "width:140px;height:15px;background-color:transparent">
+			  　院  　校： <select id="yuanxiao">
+				<option value="石油工程学院">石油工程学院</option>
+				<option value="经济管理学院">经济管理学院</option>
+				<option value="外国语学院">外国语学院</option>
+				<option value="计算机学院">计算机学院</option>
+				<option value="地球与科学工程学院">地球与科学工程学院</option>
+				<option value="其他院系">其他院系</option>
+				</select>
+			  　　　　　　　　　 　 　　　　  　　　　　　　　　　　主修专业： <select id="zhuanye"  >
+
+				     <option value="计算机科学与技术">计算机科学与技术</option>
+				     <option value="石油工程">石油工程</option>
+				     <option value="翻译">翻译</option>
+				     <option value="地质学">地质学</option>
+				     <option value="其他专业">其他专业</option>
+				     </select></p>
+		</p>
+		<p><b>个人喜好：</b></p>
+		<textarea wrap = hard name = comment4 id="comment4" rows = 3 cols = 90 style = "background-color:transparent"></textarea>
+		<p class = "bb"><b>☯课程与技术</b></p>
+		<div id = "xx">
+			<p><b>课程：</b></p> <textarea wrap = hard id = "comment1" rows = 4 cols = 90 style = "background-color:transparent"></textarea>
+			<p><b>技术：</b></p>	 <textarea wrap = hard id = "comment2" rows = 4 cols = 90 style = "background-color:transparent"></textarea>
+		</div>
+		<p class = "aa"><b>❤自述</b></p>
+		<div id = "yy">
+			<textarea wrap = hard id = "comment3" rows = 8 cols = 90 style = "background-color:transparent"></textarea>
+		</div>
+		<div style = "text-align: center">
+
+		<button onclick="output()"  onmouseover="this.style.backgroundColor = 'black';" onmouseout="this.style.backgroundColor = '';">提交</button>
+		</div>
+	</div>	
+</body>
+</html>

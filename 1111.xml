@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<?xml-stylesheet href="mystyle.css" type="text/css"?> 
+<?xml-stylesheet type="text/xsl" href="create.xsl" ?><简历>
+    <模板1>
+        <姓名>你的名字</姓名>
+        <性别>undefined</性别>
+        <出生年月>1997/07/16</出生年月>
+        <邮箱>你的邮箱</邮箱>
+        <民族>汉族</民族>
+        <政治面貌>asdsadsa</政治面貌>
+        <毕业院校>asdasds</毕业院校>
+        <学历>dfgdd</学历>
+        <住址>你的住址</住址>
+        <电话>137</电话>
+        <教育背景>fgfdgfdgf</教育背景>
+        <校内实践>hghgfh</校内实践>
+        <技能证书>hjhggfdgd</技能证书>
+        <自我评价>asdasdsadsa</自我评价>
+    </模板1>
+</简历>

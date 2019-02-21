@@ -1,0 +1,170 @@
+body{
+	margin:0px;
+	padding:0px;
+	background: #FFFFFF;
+	font-family:arial; 
+	font-size: 15px;
+	line-height: 100%;
+	text-align: center;
+}
+
+#pp{
+	margin:0px auto;
+	width:750px;
+	height: 50PX;
+	margin-top: 50px;
+	background: #00;
+	boder:1px;
+	color: #000000;
+	font-size: 50px;
+	border-style: none;
+	line-height: 50PX;
+	text-align: center;
+}
+#top{
+	position: relative;
+	
+}
+
+#ff{
+	position: absolute;
+	margin-top: -30px;
+	margin-left:250px; 
+	width: 400px;
+	height: 155px;
+	text-align: left;
+	background: #00;
+}
+
+.oo{
+	padding: 5PX;
+	margin-left: 40PX; 
+	margin-top: 30px;
+	width: 120px;
+	height: 18px;
+	vertical-align: middle;
+	line-height: 18px;
+	font-size: 20px;
+	color: #000000;
+	boder:0px;
+	border-style: none;
+	background: #00;
+	text-align: center;
+}
+#ee{
+	position: absolute;
+	padding: 0PX;
+	top: -30px;
+	left: 180px;
+	width: 400px;
+	height: 155px;
+	margin:0 0 0 350px;
+	text-align: left;
+	background: #00;
+}
+#dd{
+	position:absolute;
+	padding:0px;
+	top: -10px;
+	left: -580px;
+	width: 100px;
+	height: 125px;
+	margin: 0 0 0 675px;
+	background: url(image/b3.png);
+	background-size: 100% auto;
+	boder:1px solid;
+	line-height: 120px;
+	text-align: center;
+	font-size: 10px;
+}
+
+.cc{
+	padding:5px;
+	margin-top: 155px;
+	margin-left: 20px;
+	width: 180px;
+	height: 18px;
+	font-size: 20px;
+	color: #000000;
+	vertical-align: middle;
+	line-height: 18px;
+	background: #00;
+	text-align: center;
+}
+
+#ww{
+	width: 750px;
+	padding-top: 5px;
+	height: 100px;
+	margin-top:-20px;
+	margin-left: 60px;
+	background: #00;
+	text-align: left;
+	font-size: 18px;
+	line-height: 15px;
+}
+
+.bb{
+	padding: 5px;
+	margin-top: 20px;
+	margin-left: -10px;
+	width: 120px;
+	height: 18px;
+	vertical-align: middle;
+	line-height: 18px;
+	background: #00;	
+	font-size: 20px;
+	text-align: center;
+}
+
+#xx{
+	width: 750px;
+	height: 150px;
+	margin-top: 10px
+	text-align: left;
+	line-height: 20px;
+	font-size: 18px;
+	background: #00;
+}
+.aa{
+	padding: 5px;
+	margin-top: 100px;
+	margin-left: -40px;
+	vertical-align: middle;
+	width: 120px;
+	height: 18px;
+	line-height:18px;
+	background: #00;	
+	font-size: 20px;
+	text-align: center;
+}
+#yy{
+	width: 750px;
+	height: 200px;
+	margin-top: 10px
+	text-align: left;
+	line-height: 25px;
+	font-size: 18px;
+}
+#zz{
+	margin:50px auto;
+	width: 860px;
+	height: 1100px;
+	border: 1px;
+	border-style:  solid;
+	background-size: 100% auto;
+	background: url(image/b5.png);
+
+
+}
+
+select{
+	background-color:transparent;
+}
+button{
+	background-color:transparent;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: -50px;
+	color: #000000;
+}

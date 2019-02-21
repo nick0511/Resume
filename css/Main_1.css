@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{ 
+ 	background-image:url(../img/1231.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+/*设置顶部块元素属性*/
+#top
+{
+	position:fixed;
+	top:200px;
+	margin-left:100px;
+	height:200px;
+	width:60%;
+}
+#d1
+{
+	position:fixed;
+	top:500px;
+	height:100px;
+	width:25%;
+	background-color:rgba(153,153,153,0.5);
+}
+#d2
+{
+	position:fixed;
+	top:500px;
+	height:100px;
+	margin-left:25%;
+	width:25%;
+	background-color:rgba(153,153,153,0.5);
+}
+#d3
+{
+	position:fixed;
+	top:500px;
+	height:100px;
+	margin-left:50%;
+	width:25%;
+	background-color:rgba(153,153,153,0.5);
+}
+#d4
+{
+	position:fixed;
+	top:500px;
+	height:100px;
+	margin-left:75%;
+	width:25%;
+	background-color:rgba(153,153,153,0.5);
+}
+/*块内字体*/
+#p1
+{
+	color:#FFF;
+	font: 50px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif;
+}
+/*块内字体*/
+#p2
+{
+	color:#FFF;
+	font: 30px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif;
+}
+#p3
+{
+	color:#FFF;
+	font: 20px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif;
+}
+#p4
+{
+	color:#FFF;
+	font: 15px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif;
+}
+
+#p5
+{
+	color:rgb(102,102,102);
+	font: 13px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif;
+}
+
+#p6
+{
+	position:absolute;
+	right:10%;
+}
+
+#t1
+{
+	position:absolute;
+	top:10%;
+	left:10%;
+}
+
+#t2
+{
+	position:absolute;
+	top:10%;
+	left:40%;
+}
+
+#t3
+{
+	position:absolute;
+	top:10%;
+	left:70%;
+}
+
+#t4
+{
+	position:absolute;
+	top:55%;
+	left:10%;
+}
+
+#t5
+{
+	position:absolute;
+	top:55%;
+	left:40%;
+}
+
+#t6
+{
+	position:absolute;
+	top:55%;
+	left:70%;
+}
+
+.picture
+{
+	width:300px;
+	height:425px;
+}
+
+/*主块*/
+#maindiv
+{
+	position:absolute;
+	top:600px;
+	width:100%;
+	height:200%;
+	background-color:rgba(255,255,255,0.8)
+}
+
+.discribe
+{
+	width:100%;
+	position:relative;
+}
+
+#d01
+{
+	position:absolute;
+	top:4%;
+	left:10%;
+	font: 35px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif;
+}
+
+#d02
+{
+	position:absolute;
+	top:48%;
+	left:10%;
+	font: 35px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif;
+}
+
+.last
+{
+	width:100%;
+	height:11%;
+	position:absolute;
+	bottom:0%;
+}
+
+#last
+{
+	background-image:url(../img/last.jpg);
+}
+
+#last2
+{
+	background-color:rgba(51,51,51,0.9);
+}
+
+#last3
+{
+	position:absolute;
+	top:50%;
+	left:10%;
+}
+
+#last4
+{
+	position:absolute;
+	right:10%;
+	top:10%;
+}
+
+#dis1
+{
+	background-color:rgb(255,255,255);
+}
+
+#dis2
+{
+	background-color:rgb(240,240,240);
+	height:85%;
+}
+
+.argsize
+{
+	color:#333;
+	font: 40px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif;
+}

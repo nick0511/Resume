@@ -1,0 +1,156 @@
+<html>
+	<head>
+		<title>个人简历</title>
+		<link rel="stylesheet" type="text/css" href="home.css">
+	</head>
+	<body>
+		<div id="background">
+			<div id="main">
+				<div id="leftbig">
+					<div id="picture">
+						<img id="img" src="aa.gif">
+					</div>
+					<p id="p1">个人简历</p>
+					<p id="p2">求职意向:
+						<input id="want" value="安卓工程师" size="12">
+						<hr id="hr-one">
+						</p>
+					<div id="lcontainer">
+						<div id="lfirst">
+							<p id="p3">姓名:
+								<input
+                                       id="name" value="张博" size="6" class="text">&nbsp&nbsp
+								年龄:
+								<input id="age" value="20" size="4" class="text"><br>
+								籍贯:
+								<input id="nalive" value="天津" size="6" class="text">&nbsp&nbsp
+								民族:
+								<input id="nation" value="汉族" size="4" class="text"><br>
+								出生年月:
+                                <input type=date id="date" ><br>
+								期望薪资:
+								<input id="money" value="150000" size="6" class="text">
+								元/年<br>
+								健康状况:
+								<select id="healthselect" name="healthy" class="select">
+									<option value="良好">良好</option>
+									<option value="疾病">疾病</option>
+								</select><br>
+								性别:
+								<input id="sex" type="radio" name="sex" value="男" checked>男
+								<input id="sex" type="radio" name="sex"value="女">女<br>
+								</p>
+						</div>
+						<div id="lsecond">
+							<p id="p4">基本信息</p>
+                            
+                            <!--电话-->
+							<img id="img2" src="icon\telephone.png">
+							<input id="phone" size="20" value="15522306652" class="text1"><br>
+                            
+                            <!--邮件-->
+							<img id="img2" src="icon\email.png">
+                            <input id="email" value="963131068@qq.com" size="20" class="text1"><br>
+                            
+                            <!--微信-->
+							<img id="img2" src="icon\wechat.png">
+                            <input id="wechat" value="963131068" size="20" class="text1"><br>
+                            
+                            <!--地址-->
+							<img id="img2" src="icon\school.png">
+                            <input id="addtress" value="天津" size="20" class="text1"><br>
+                            
+                            <!--学校-->
+							<img id="img2" src="icon\adtress.png">
+                            <input id="school" value="西安石油大学" size="20" class="text1"><br>
+						</div>
+						<div id="lthird">
+							<p id="p4">自我技能评估</p>
+                            
+							<img id="img3" src="icon\circle.png">&nbsp<p id="p6">专业能力</p>
+							<center><select id="majorselect" class="select">
+								<option value="极高">极高</option>
+									<option value="高">高</option>
+									<option value="中等">中等</option>
+									<option value="低">低</option>
+								</select><br></center>
+                            
+								<img id="img3" src="icon\circle.png"><p id="p6">执行能力</p>
+							<center><select id="doselect" class="select">
+								<option value="极高">极高</option>
+									<option value="高">高</option>
+									<option value="中等">中等</option>
+									<option value="低">低</option>
+								</select><br></center>
+								<img id="img3" src="icon\circle.png"><p id="p6">应变能力</p>
+							<center><select id="changeselect" class="select">
+								<option value="极高">极高</option>
+									<option value="高">高</option>
+									<option value="中等">中等</option>
+									<option value="低">低</option>
+								</select><br></center>
+                            
+								<img id="img3" src="icon\circle.png"><p id="p6">交际能力</p>
+							<center><select id="talkselect" class="select">
+								<option value="极高">极高</option>
+									<option value="高">高</option>
+									<option value="中等">中等</option>
+									<option value="低">低</option>
+								</select><br></center>
+                            
+								<img id="img3" src="icon\circle.png"><p id="p6">学习能力</p>
+							<center><select id="studyselect" class="select">
+								<option value="极高">极高</option>
+									<option value="高">高</option>
+									<option value="中等">中等</option>
+									<option value="低">低</option>
+								</select><br></center>
+                            
+								<img id="img3" src="icon\circle.png"><p id="p6">策划能力</p>
+							<center><select id="schemeselect" class="select">
+								<option value="极高">极高</option>
+									<option value="高">高</option>
+									<option value="中等">中等</option>
+									<option value="低">低</option>
+								</select><br></center>
+						</div>
+					</div>
+				</div>
+				<div id="leftsmall"></div>
+				<div id="rightbig">
+					<div id="rfirst">
+						<img id="img4" src="icon\file.png">
+						
+                        <p id="p5">自我介绍</p>
+						<div id="one">
+						<textarea id="introduce" cols="70" rows="13" class="areabox"></textarea><br>
+						</div>
+						<hr id="hr-two">
+					</div>
+					<div id="rsecond">
+						<img id="img4" src="icon\yes.png">
+						
+                        <p id="p5">校园经历</p>
+						<div id="one">
+							<textarea id="sexperience" cols="70" rows="19" class="areabox"></textarea><br>
+						</div>
+						<hr id="hr-three">
+					</div>
+					<div id="rthird">
+						<img id="img4" src="icon\1.png">
+						
+                        <p id="p5">项目经历</p>
+							<div id="one">
+								<textarea id="dexperience" cols="70" rows="19" class="areabox"></textarea><br>
+							</div>
+					</div>
+					<input name="send" id="send" type="button" value="提交" onclick="send()">
+                    
+					<script src="home.js" charset="utf-8">
+                    </script>
+				</div>
+			</div>
+		</div>
+		<div id="aaa"></div>
+	</body>
+</html>
